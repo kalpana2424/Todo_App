@@ -1,0 +1,136 @@
+/* Resetting some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+ 
+}
+
+/* Center the content */
+.container {
+  background: rgba(255, 255, 255, 0.40);
+  transform-style: preserve-3d;
+  transition: .3s;
+  backdrop-filter: blur(100px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+  max-width: 400px;
+  width: 100%;
+  margin: 120px auto;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+
+/* Header Style */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #5c6bc0;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3f51b5;
+}
+
+/* Todo List Styling */
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+ol li {
+    background-color: #fafafa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #5c6bc0;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.todo-actions a {
+    padding: 6px 12px;
+    margin: 0 4px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.todo-actions a.edit {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.todo-actions a.delete {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+
+.todo-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.todo-form input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.todo-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.todo-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
